@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_to_main"
+        app:icon="@drawable/ic_launcher"
+        android:title="自己输入计算24"
+        app:showAsAction="never" />
+    
+    <item 
+        android:id="@+id/action_share"
+        app:icon="@drawable/ic_launcher"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:title="分享"
+        app:showAsAction="never"
+        />
+
+</menu>
